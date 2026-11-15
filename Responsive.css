@@ -1,0 +1,128 @@
+@media (min-width:320px) and (max-width:768px){
+
+    /*______WhatWeProvide______*/
+    .whatWeProvide .innerCard::before{left: -72px;top: -126px;width: 300px;height: 300px;}
+}
+
+@media (min-width:320px) and (max-width:992px){
+
+    /*______Home Banner______*/
+    .homeBanner .navbar .navbar-collapse {background: #fff;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;border-radius: 20px;padding: 15px 20px;margin-top: 2px;}
+    .homeBanner .navbar .menus ul li{border-bottom: 1px solid #e3e4ee;margin-right: 0px;}
+    .homeBanner .navbar .menus ul li a{text-align: left;padding: 12px 0px;font-size: 14px;}
+    .homeBanner .navbar .menus ul li.contactBtn{border: none;padding-top: 15px;}
+
+    /*______WhatWeProvide______*/
+    .whatWeProvide .innerCard{margin-bottom: 20px;}
+}
+
+@media (max-width:575px){
+
+   /*______Common______*/
+   .homeBanner, .whatWeProvide, .carrierGrowth, .leaderCertificate, .executiveCertificate, .productManagement, .whyChooseUs, .testimonial{padding: 20px;}
+   .sectionHeader h5, .sectionSideHeader h5{font-size: 28px;}
+   .sectionHeader p{font-size: 15px;}
+   .carrierGrowth .certification .rightContent .rightContentBtns button, 
+   .leaderCertificate .leaderCertificatecontent .leftContent .leftContentBtns button,
+   .executiveCertificate .executiveCertificationContent .rightContent .rightContentBtns button{height: 40px;padding: 5px 12px;font-size: 14px;}
+   .carrierGrowth .certification .rightContent .certificateInfo button, 
+   .leaderCertificate .leaderCertificatecontent .leftContent .leaderInfo button,
+   .executiveCertificate .executiveCertificationContent .rightContent .executiveCertificateInfo button{padding: 5px 9px;font-size: 12px;}
+   .carrierGrowth .certification .rightContent .certificateInfo button span,
+   .leaderCertificate .leaderCertificatecontent .leftContent .leaderInfo button span,
+   .executiveCertificate .executiveCertificationContent .rightContent .executiveCertificateInfo button span{width: 25px;height: 25px;}
+
+   /*______Home Banner______*/
+   .homeBanner .homeLeftContent .homeLeftContentBtns button{margin-bottom: 10px;font-size: 14px;}
+   .homeBanner .homeLeftContent h4{font-size: 40px;}
+   .homeBanner .homeLeftContent p{font-size: 15px;}
+   .homeBanner .navbar .menus ul li button{font-size: 14px;}
+   .homeBanner .navbar .navbar-toggler-icon{width: 25px;height: 25px;}
+   .homeBanner .navbar .navbar-toggler{padding: 4px;}
+   .homeBanner .navbar .navbar-toggler:focus{outline: none;box-shadow: none;}
+
+    /*______Testimonial______*/
+   .testimonial .carousel .carousel-inner{padding: 25px 15px;}
+
+    /*______ProductManagement______*/
+   .productManagement .managementContent {background: var(--color-primary);padding: 25px;border-radius: 15px;}
+   .productManagement .managementContent .leftContent h5{font-size: 20px;}
+   .productManagement .managementContent .leftContent p{font-size: 13px;padding: 15px 0px;}
+   .productManagement .managementContent .leftContent .textButton {text-align: center;}
+   .productManagement .managementContent .leftContent .textButton button {width: 142px;padding: 6px;font-size: 14px;}
+
+    /*______Why ChooseUs______*/
+   .whyChooseUs .whyChooseUsContent .rightContent .ourPoints ul li {padding-bottom: 10px;font-weight: 600;color: var(--mainText-color);font-size: 13px;}
+
+    /*______Footer______*/
+   .footer .topContent .rightContent ul li{padding-right: 15px;}
+
+}
+
+@media (min-width:576px) and (max-width:992px){
+
+    /*______ExecutiveCertificate______*/
+    .executiveCertificate {padding: 50px 0px 50px 0;}
+
+    /*______Why ChooseUs______*/
+    .whyChooseUs {padding: 50px 0px 50px 0px;}
+
+}
+
+@media (max-width:768px){
+
+    /*______Common______*/
+    .sectionHeader{padding: 0px;}
+
+    /*______WhatWeProvide______*/
+    .whatWeProvide .provideCard{flex: 0 0 100%;max-width: 100%;}
+
+    /*______Footer______*/
+    .footer .topContent .leftContent ul li {display: inline-block;padding-right: 20px;width: 100%;padding-bottom: 10px;}
+    .footer .topContent .rightContent{padding-top: 20px;}
+    .footer .bottomContent .footerLogo{padding-top: 20px;}
+    
+}
+
+@media (min-width:769px) and (max-width:992px){
+
+    /*______WhatWeProvide______*/
+    .whatWeProvide .provideCard{flex: 0 0 100%;max-width: 100%;}
+}
+
+@media (max-width:992px){
+
+    /*______Testimonial______*/
+    .testimonial .sectionHeader{padding: 0px;}
+    .testimonial .testimonialCard{margin-bottom: 20px;height: auto;}
+    .testimonial .carousel .carousel-indicators{bottom: -20px;}
+
+    /*______Home Banner______*/
+    .homeBanner .homeRightContent{padding-top: 60px;}
+    .homeBanner .navbar .menus ul li a::before{display: none;}
+
+    /*______CarrierGrowth______*/
+    .carrierGrowth .certification .leftContent .certificateImg{text-align: center;}
+
+    /*______leaderCertificate______*/
+    .leaderCertificate .leaderCertificatecontent .rightContent .leaderCertificateImg {text-align: center;padding-top: 60px;}
+
+    /*______ExecutiveCertificate______*/
+    .executiveCertificate .executiveCertificationContent .leftContent .executiveCertificateImg{text-align: center;}
+
+    /*______ProductManagement______*/
+    .productManagement .managementContent .rightContent .managementImg{padding-top: 60px;}
+
+    /*______Why ChooseUs______*/
+    .whyChooseUs .whyChooseUsContent .leftContent .whyChooseUsImg{text-align: center;}
+      
+}
+
+@media (min-width:992px) and (max-width:1200px){
+
+    /*______Testimonial______*/
+    .testimonial .testimonialCard{height: 370px;}
+}
+
+
+
